@@ -2,6 +2,7 @@ import {
   ArrowRight,
   BriefcaseBusiness,
   ExternalLink,
+  FileDown,
   Github,
   GraduationCap,
   LayoutGrid,
@@ -52,6 +53,16 @@ export function PortfolioView() {
             <a className="button primary" href="#projetos">
               Ver projetos
               <ArrowRight size={18} />
+            </a>
+
+            <a
+              className="button secondary"
+              href={`${import.meta.env.BASE_URL}curriculo-karoline-sirati.pdf`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FileDown size={18} />
+              Currículo PDF
             </a>
 
             <a
