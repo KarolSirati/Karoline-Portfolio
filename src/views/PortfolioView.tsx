@@ -50,10 +50,6 @@ export function PortfolioView() {
           </p>
 
           <div className="hero-actions">
-            <a className="button primary" href="#projetos">
-              Ver projetos
-              <ArrowRight size={18} />
-            </a>
 
             <a
               className="button secondary"
