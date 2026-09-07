@@ -45,7 +45,7 @@ export function PortfolioView() {
           </p>
 
           <p className="hero-description">
-            Construindo soluções digitais com código limpo e foco em pessoas.
+            Desenvolvimento de aplicações web e APIs REST, do backend ao frontend.
           </p>
 
           <div className="hero-actions">
@@ -92,7 +92,7 @@ export function PortfolioView() {
 
           <div>
             <span>Experiência</span>
-            <strong>Grupo Globo</strong>
+            <strong>Desenvolvimento Full Stack na Globo</strong>
             <small>ago/2025 — atual</small>
           </div>
         </div>
@@ -178,10 +178,10 @@ export function PortfolioView() {
             <h2>Sobre mim</h2>
 
             <p>
-              Desenvolvedora Full Stack em início de carreira, com experiência
-              em produtos digitais e aprendizado contínuo. Trabalho com Go,
-              React e TypeScript, criando soluções claras, acessíveis e bem
-              estruturadas.
+              Desenvolvedora de Software Full Stack com mais de 1 ano de experiência profissional,
+              atualmente atuando na Globo no desenvolvimento e na manutenção de aplicações em produção. 
+              Trabalho com Go, React e TypeScript na evolução de APIs REST e sistemas web, 
+              além de participar de atividades de refatoração, correção de bugs e monitoramento de aplicações.
             </p>
           </div>
         </article>
@@ -198,8 +198,7 @@ export function PortfolioView() {
             </p>
 
             <p>
-              Formações complementares em desenvolvimento web e computação em
-              nuvem.
+              Formação complementar em Go, desenvolvimento web e APIs REST.
             </p>
           </div>
         </article>
@@ -212,7 +211,7 @@ export function PortfolioView() {
           <div>
             <span className="eyebrow">Contato</span>
             <h2>Vamos conversar?</h2>
-            <p>Estou aberta a oportunidades e trocas sobre tecnologia.</p>
+            <p>Estou aberta a oportunidades em desenvolvimento Full Stack, backend com Go e frontend com React e TypeScript.</p>
           </div>
         </div>
 
@@ -233,7 +232,7 @@ export function PortfolioView() {
               name="email"
               type="email"
               required
-              placeholder="voce@empresa.com"
+              placeholder="email@exemplo.com"
             />
           </label>
 
@@ -268,7 +267,7 @@ export function PortfolioView() {
 
       <footer className="section-shell">
         <span>Karoline Sirati</span>
-        <span>Go • React • TypeScript</span>
+        <span>Obrigada pela visita!</span>
 
         <div>
           <a

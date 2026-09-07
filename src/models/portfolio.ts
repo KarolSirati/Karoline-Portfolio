@@ -20,8 +20,8 @@ export const technologies = [
   "React",
   "TypeScript",
   "APIs REST",
-  "MongoDB",
   "Git/GitLab",
+  "Grafana/Sentry",
 ];
 
 export const projects: Project[] = [
