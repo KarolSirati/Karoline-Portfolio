@@ -21,7 +21,8 @@ export const technologies = [
   "TypeScript",
   "APIs REST",
   "Git/GitLab",
-  "Grafana/Sentry",
+  "Grafana",
+  "Sentry",
 ];
 
 export const projects: Project[] = [
