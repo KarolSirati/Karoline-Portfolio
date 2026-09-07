@@ -236,6 +236,9 @@ nav a:focus-visible {
 }
 
 .tech-summary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
     padding-left: 32px
 }
 
@@ -247,16 +250,17 @@ nav a:focus-visible {
 .tech-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 9px
+    gap: 8px
 }
 
 .tech-list span {
-    padding: 7px 16px;
+    padding: 7px 14px;
     border: 1px solid var(--border);
     border-radius: 999px;
     background: #ffffffb3;
     font-size: .85rem;
-    font-weight: 700
+    font-weight: 700;
+    white-space: nowrap
 }
 
 .projects {
@@ -513,7 +517,7 @@ footer svg {
 
     .highlight,
     .project-grid,
-    .details{
+    .details {
         grid-template-columns: 1fr
     }
 
