@@ -263,7 +263,7 @@ export function PortfolioView() {
               {status === "success" && "Mensagem recebida!"}
 
               {status === "error" &&
-                "Não foi possível enviar. Verifique se a API Go está ativa."}
+                "Não foi possível enviar. Tente novamente em alguns instantes."}
             </span>
           </div>
         </form>
