@@ -179,8 +179,8 @@ export function PortfolioView() {
 
             <p>
               Desenvolvedora de Software Full Stack com mais de 1 ano de experiência profissional,
-              atualmente atuando na Globo no desenvolvimento e na manutenção de aplicações em produção. 
-              Trabalho com Go, React e TypeScript na evolução de APIs REST e sistemas web, 
+              atualmente atuando na Globo no desenvolvimento e na manutenção de aplicações em produção.
+              Trabalho com Go, React e TypeScript na evolução de APIs REST e sistemas web,
               além de participar de atividades de refatoração, correção de bugs e monitoramento de aplicações.
             </p>
           </div>
@@ -206,13 +206,17 @@ export function PortfolioView() {
 
       <section className="contact section-shell" id="contato">
         <div className="contact-copy">
-          <Mail />
-
-          <div>
+          <div className="contact-eyebrow">
+            <Mail size={17} />
             <span className="eyebrow">Contato</span>
-            <h2>Vamos conversar?</h2>
-            <p>Estou aberta a oportunidades em desenvolvimento Full Stack, backend com Go e frontend com React e TypeScript.</p>
           </div>
+
+          <h2>Vamos conversar?</h2>
+
+          <p>
+            Estou aberta a oportunidades em desenvolvimento Full Stack, backend com
+            Go e frontend com React e TypeScript.
+          </p>
         </div>
 
         <form onSubmit={handleSubmit}>
@@ -236,7 +240,7 @@ export function PortfolioView() {
             />
           </label>
 
-          <label className="full-field">
+          <label>
             Mensagem
             <textarea
               name="message"
@@ -255,7 +259,7 @@ export function PortfolioView() {
               <ArrowRight size={18} />
             </button>
 
-            <span>
+            <span role="status">
               {status === "success" && "Mensagem recebida!"}
 
               {status === "error" &&
